@@ -13,6 +13,8 @@ Python的多线程模块有thread和threading，推荐使用threading。因为�
 '''
 
 '''
+https://docs.python.org/2/library/threading.html
+
 threading模块中提供的函数有：
 threading.active_count()， threading.activeCount()：返回活着的线程数，数值上等于enumerate()返回的列表的长度。
 threading.Condition()：工厂函数，返回一个条件变量对象。条件变量允许一个或多个线程处于等待状态，直到被其它线程唤醒。
