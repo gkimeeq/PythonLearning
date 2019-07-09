@@ -5,6 +5,8 @@ import Queue
 import time
 
 '''
+https://docs.python.org/2/library/queue.html
+
 Queue模块在Python 3中改名为queue了。
 Queue模块实现了多个生产者消费者列队，可以在多线程中进行安全的信息交换。
 Queue模块定义了三个类：Queue.Queue, Queue.LifoQueue, Queue.PriorityQueue，还包含两个异常：Queue.Empty, Queue.Full。
