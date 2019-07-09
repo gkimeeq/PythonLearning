@@ -11,6 +11,8 @@ Python中的多线程并不是真正的多线程，是利用GIL（Global Interpr
 '''
 
 '''
+https://docs.python.org/2/library/multiprocessing.html
+
 进程类Process
 class multiprocessing.Process(group=None, target=None, name=None, args=(), kwargs={})
 group：保留为以后所用，用None即可
