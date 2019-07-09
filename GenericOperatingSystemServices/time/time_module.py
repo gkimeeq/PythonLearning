@@ -5,6 +5,8 @@
 import time
 
 '''
+https://docs.python.org/2/library/time.html
+
 用到的时间元组
 class time.struct_time
 属性包括：
